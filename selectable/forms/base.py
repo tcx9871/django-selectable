@@ -4,7 +4,7 @@ from importlib import import_module
 
 from django import forms
 from django.conf import settings
-from django.utils.six import string_types
+from six import string_types
 
 
 __all__ = (
